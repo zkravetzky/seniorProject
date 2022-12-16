@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Register</title>
+      <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body id="register">
+    <div class="regbox">
+      <img src="https://cdn.pixabay.com/photo/2013/07/12/12/45/tennis-ball-146167_960_720.png" class="regavatar">
+
+      <form action="/register" method="POST" class="reg-form">
+        <h1>Create Account</h1>
+        
+        <div id = "createuser">
+          <p>Username</p>
+          <input type="text" name="username" placeholder="Create Username">
+        </div>
+       
+        <div id ="createpass">
+          <p>Password</p>
+          <input type="password" name="password" placeholder="Create Password">
+        </div>
+       
+        <div id ="user=email">
+          <p>Email</p>
+          <input type="text" name="email" placeholder="Enter Email">
+        </div>
+
+        <div id="reg-submit">
+          <input type="submit" name="" value="Create Account"><br>
+          <a href="/login">Already registered?</a><br>
+          <a href="/">Back to home</a>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

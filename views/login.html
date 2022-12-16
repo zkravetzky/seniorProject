@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login</title>
+      <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body id="login">
+    <div class="loginbox">
+      <img src="https://cdn.pixabay.com/photo/2013/07/12/12/45/tennis-ball-146167_960_720.png" class="avatar">
+      
+      <form action="/login" method="POST"  class="login-form">
+        <h1>Login Here</h1>
+        <div id="user">
+          <p>Username</p>
+          <input type="text" name="username" placeholder="Enter Username">
+        </div>
+        <div id="pass">
+          <p>Password</p>
+          <input type="password" name="password" placeholder="Enter Password">
+        </div>
+        <div id="submit">
+          <input type="submit" name="" value="Login"><br>
+          <a href="#">Forgot password?</a>
+          <a href="/register">Not registered?</a>
+          <a href="/">Back to home</a>
+        </div>
+      </form> <!-- end login form -->
+    </div>
+  </body>
+</html>

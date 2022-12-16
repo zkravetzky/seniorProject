@@ -1,0 +1,486 @@
+#nav-space {
+    padding-bottom: 60px;
+  }
+  
+  #navbar-spy {
+    box-shadow: 2px 2px #33266e;
+    min-height: 60px
+  }
+  
+  #hero-section {
+    background-image: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0.25)),
+      url(https://cdn.pixabay.com/photo/2015/09/05/23/47/tennis-926386_960_720.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: clamp(100px, 80vh, 200px) 0;
+    min-height: 80vh;
+    color: #2d5f5d;
+    text-shadow: 2px 2px #33266e;
+    position: relative;
+  }
+  
+  #profile-img {
+    background-image: url(https://images.squarespace-cdn.com/content/v1/62ead53cabc321462e91d0d3/fc441888-5cd5-4670-8104-4e6b3c6cdaf4/svb+logo.png?format=1500w);
+    border-radius: 100px;
+    background-position: center;
+    background-size: cover; 
+    z-index: 200;
+    margin: clamp(10px, 20vh, 100px) auto;
+    height: clamp(100px, 20vh, 300px);
+    width: clamp(100px, 20vh, 300px);
+  }
+  
+  
+  #hero-section h2 {
+    text-align: center;
+    position: relative; top: -65px;
+    font-size: clamp(2rem, 10vw, 4rem);
+    font-family: 'Roboto slab', sans-serif;
+    
+  }
+  
+  #hero-section p {
+    text-align: center;
+    position: relative; top: -65px;
+    font-size: clamp(1rem, 2.5vw, 2rem);
+    letter-spacing: 1px;
+    color: #BEBEBE;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  #future {
+    width: 100%;
+    padding-bottom: 40px;
+    padding-top: 20px
+  }
+  
+  #mission-section { 
+    background-color: #1e4258;
+    padding-top: 60px;
+  }
+  
+  #mission-section h3 {
+   text-align: center;
+   font-size: clamp(1rem, 10vw, 2.5rem);
+   letter-spacing: 1px;
+   color: #BEBEBE;
+   font-family: 'Roboto slab', sans-serif;
+  }
+  
+  #mission-section p {
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
+    color: #BEBEBE;
+    letter-spacing: 1px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  #sports-section {
+    background-color: #494b68;
+    padding-top: 60px;
+  }
+  
+  #sports-section h3 {
+    text-align: center;
+    font-size: clamp(1rem, 10vw, 2.5rem);
+    letter-spacing: 1px;
+    color: #BEBEBE;
+    padding-top: 20px;
+    font-family: 'Roboto slab', sans-serif;
+  }
+  
+  #sports-section p {
+    text-align: center;
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
+    letter-spacing: 1px;
+    color: #BEBEBE;
+    padding-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  #sports-section img {
+    padding-top: 20px;
+  }
+  
+  #tennis {
+    width: 100%;
+  }
+  
+  #paddle {
+    width: 100%;
+  }
+  
+  #pickle {
+    width: 100%;
+  }
+  
+  #volley {
+    width: 100%;
+  }
+  
+  #cal-section {
+    background-color: #022140;
+    padding-bottom: 60px;
+    padding-top: 60px;
+  }
+  
+  #cal-section h3 {
+    text-align: center;
+    font-size: clamp(1rem, 10vw, 2.5rem);
+    letter-spacing: 1px;
+    color: #BEBEBE;
+    font-family: 'Roboto slab', sans-serif;
+  }
+  
+  .carousel-item img {
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+    opacity: .8;
+  }
+  
+  #contact-section {
+    background-color: #2d5f5d;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  
+  #contact-section h3 {
+    text-align: center;
+    font-size: clamp(1rem, 10vw, 2.5rem);
+    letter-spacing: 1px;
+    color: #BEBEBE;
+    font-family: 'Roboto slab', sans-serif;
+  }
+  
+  #email {
+    font-size: clamp(4rem, 10vw, 8rem);
+  }
+  
+  #linkedin {
+    font-size: clamp(4rem, 10vw, 8rem);
+  }
+  
+  #contact-section a {
+    color: #022140;
+    overflow: hidden;
+  }
+  
+  a:visited {
+    color: #33266e;
+  }
+  
+  a:hover {
+    
+    filter: brightness(120%) saturate(120%);
+    
+  }
+  
+  footer {
+    text-align: center;
+    background-color:  #022140;
+    color: #BEBEBE;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  #home-logo {
+    transition: transform .7s ease-in-out;
+  }
+  
+  #home-logo:hover {
+    transform: rotate(360deg);
+  }
+  
+  
+  /* calendar  */
+  * {
+    margin: 0;
+    padding: 0;
+    box: border-box;
+  }
+  
+  .cal-container {
+    width: 100%;
+    height: 100vh;
+    background-color:#12121f;
+    color: #eee;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .calendar{
+    width: 45rem;
+    height: 52rem;
+    background-color: #222227;
+    box-shadow: 0 .05rem 3rem rgba(0, 0, 0, 0.4);
+  }
+  
+  .month{
+    width: 100%;
+    height: 12rem;
+    background-color: #167e56;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    text-align: center;
+    text-shadow: 0 0.3rem 0.5rem rgba(0.0.0.0.5);
+  }
+  
+  .month i{
+    font-size: 2.5rem;
+    cursor: pointer;
+  }
+  
+  .month h1{
+    font-size: 3rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .month p{
+    font-size:1.6rem;
+  }
+  
+  .weekdays{
+    width: 100%;
+    height: 5rem;
+    padding: 0 0.4rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .weekdays div{
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    width: calc(44.2rem/7);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-shadow: 0 0 .3rem 0.5rem rgba(0,0,0,0.5);
+  }
+  
+  .days{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.2rem;
+  }
+  
+  .days div{
+    font-size: 1.4rem;
+    margin: 0.3rem;
+    width: calc(40.2rem/7);
+    height: 5rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0 0.3rem 0.5rem rgba(0,0,0,0.5);
+    transition: background-color 0.2s;
+  }
+  
+  .prev-date, .next-date{
+    opacity: 0.5 ;
+  }
+  
+  .today{
+    background-color: #167e56;
+  }
+  
+  .days div:hover:not(.today){
+    background-color: #262626;
+    border: 0.2rem solid #777;
+    cursor: pointer;
+  }
+  
+  /* login */
+  #login{
+    margin: 0;
+    padding: 0;
+    background: url(https://cdn.pixabay.com/photo/2017/07/31/09/52/tennis-2557074_960_720.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+  }
+  
+  .loginbox{
+    width: 320px;
+    height: 420px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+  }
+  
+  .avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+  }
+  
+  h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+  }
+  
+  .loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+  }
+  
+  .loginbox input{
+    width: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .loginbox input[type="text"], input[type="password"]
+  {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    width: 100%;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .loginbox input[type="submit"]
+  {
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 100%;
+    background: green;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+  }
+  
+  .loginbox input[type="submit"]:hover{
+    cursor: pointer;
+    background: #777;
+    color: #fff;
+  }
+  
+  .loginbox a{
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 20px;
+    color: green;
+  }
+  
+  .loginbox a:hover{
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 20px;
+    color: #777;
+  }
+  
+  /* create user  */
+  
+  #register{
+    margin: 0;
+    padding: 0;
+    background: url(https://cdn.pixabay.com/photo/2017/07/31/09/52/tennis-2557074_960_720.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+  }
+  
+  .regbox{
+    width: 320px;
+    height: 450px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+  }
+  
+  .regavatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+  }
+  
+  .regbox h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+  }
+  
+  .regbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+  }
+  
+  .regbox input{
+    width: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .regbox input[type="text"], input[type="password"]
+  {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    width: 100%;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .regbox input[type="submit"]
+  {
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 100%;
+    background: green;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+  }
+  
+  .regbox input[type="submit"]:hover{
+    cursor: pointer;
+    background: #777;
+    color: #fff;
+  }
+  
+  .regbox a{
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 20px;
+    color: green;
+  }
+  
+  .regbox a:hover{
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 20px;
+    color: #777;
+  }

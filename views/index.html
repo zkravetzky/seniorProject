@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    
+    <!-- Remember to replace this with your title! -->
+    <title>SVB Tennis Club</title>
+    
+    <!-- Link for boostrap from: 
+    https://getbootstrap.com/docs/5.0/getting-started/introduction -->
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&family=Roboto+Slab&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link href='https://css.gg/tennis.css' rel='stylesheet'>
+    <link href='https://css.gg/facebook.css' rel='stylesheet'>
+    <link href='https://css.gg/instagram.css' rel='stylesheet'>
+
+    <!-- Custom styles (these can extend bootstrap which is JUST CSS!) -->
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <!-- or from surge.sh -->
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target="#navbar-spy" data-bs-offset="75">
+  
+  <!-- Navbar:
+https://getbootstrap.com/docs/5.0/components/navbar/#nav 
+  -->
+
+<div id="nav-space"></div>
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark" id="navbar-spy">
+  <div class="container">
+    <a class="navbar-brand active" aria-current="page" href="#hero-section" id="home-logo"><i class="gg-tennis"></i></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#mission-section"><i class="bi bi-trophy"></i>About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#skills-section"><i class="bi bi-unlock"></i> Sports</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#inspiration-section"><i class="bi bi-star"></i> Court Reservations</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#contact-section"><i class="bi bi-envelope"></i> Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="/login"><i class="bi bi-door-open"></i> Member Login</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <section id="hero-section">
+    <div id="profile-img"></div>
+    <h2>Sarah Vande Berg Tennis & Wellness Center</h2>
+    <p>We are open to the public!</p>
+  </section>
+
+  <section id="mission-section">
+    <h3>About Us</h3>
+    <div class="container" id="mission-container">
+      <div class="row align-items-center">
+        <div class="col-sm-12 col-md-6">
+          <img src="https://i0.wp.com/lakerlutznews.com/lln/wp-content/uploads/2021/09/SVB-14-1024x632-1.jpeg?ssl=1" alt="a couple of kids playing Tennis" id="future" class="img-fluid">
+        </div>
+        <div class="col-sm-12 col-md-6">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing   elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </div>
+    </div> <!-- end container -->
+  </section>
+
+  <section id="sports-section">
+    <h3>Sports</h3>
+    <div class= "container" id="sports-container">
+      <div class="row align-items-center">
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <img src="img/tennis.jpg" id="tennis">
+          <p>>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..</p>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <img src="img/paddle.jpg" id="paddle">
+          <p>>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <img src="img/pickleball.jpg" id="pickle">
+          <p>>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+     
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <img src="img/volleyball.jpg" id="volley">
+          <p>>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+
+  <!-- Calendar section-->
+  <section id="cal-section">
+    <h3>Court Reservations</h3>
+    <div class="cal-container">
+        <div class="calendar">
+          <div class="month">
+            <i class="bi bi-arrow-left prev"></i>
+            <div class="date">
+              <h1> </h1>
+              <p></p>
+            </div>
+            <i class="bi bi-arrow-right next"></i>
+          </div>
+          <div class=weekdays>
+            <div>Sun</div>
+            <div>Mon</div>
+            <div>Tues</div>
+            <div>Wed</div>
+            <div>Thu</div>
+            <div>Fri</div>
+            <div>Sat</div>
+          </div>
+          <div class="days"></div>
+        </div>
+    </div>
+  
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact-section">
+    <h3>Contact</h3>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-4 col-lg-4">
+            <a href="mailto:info@svbtenniscenter.com"><i class="bi bi-envelope-fill" style="font-size: 50px"></i></a>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+            <a href="https://www.instagram.com/svbtenniscenter/"><i class="bi bi-instagram" style="font-size: 50px"></i></a>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+            <a href="https://www.facebook.com/svbtenniscenter"><i class="bi bi-facebook" style="font-size: 50px"></i></a>
+        </div>
+      </div> <!-- end row -->
+      </div> <!-- end container -->
+  </section>
+
+  <!-- Footer section -->
+  
+    <footer id="footer">
+      &copy; group 18, senior project
+    </footer>
+
+
+  <!-- Bootstrap Javascript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
